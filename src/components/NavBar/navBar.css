@@ -1,0 +1,49 @@
+.navbar-brand {
+  color: var(--success-color) !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-bar {
+  height: 5rem;
+}
+.middle-header-search-box {
+  width: 30%;
+  background-color: var(--white-color);
+  height: 3rem;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.middle-header-search-box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.middle-header-search-box .search-box-btn {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  padding: 0 17px;
+  margin: auto;
+  font-size: 2rem;
+  border: 1px solid var(--success-color);
+  background-color: var(--success-color);
+  color: var(--white-color);
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.search-box-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
+}
